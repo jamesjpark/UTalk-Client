@@ -2,60 +2,45 @@ import React from 'react'
 
 const UsersPage = () => {
   return (
-    <div style={{width: '100%', height: '100%', padding: 16, background: '#ECECEC', borderRadius: 16, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 18, display: 'inline-flex'}}>
-    <div style={{width: 633, justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
-        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex'}}>
-            <div style={{width: 48, height: 48, background: 'white', borderRadius: 13}} />
-            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
-                <div style={{width: 139, height: 26, color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Anonymous<br/><br/></div>
-                <div style={{width: 96, height: 11, color: 'black', fontSize: 10, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>XX / XX   XX : XX</div>
-            </div>
-        </div>
-        <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 7, display: 'flex'}}>
-            <div style={{width: 6, height: 6, background: 'white', borderRadius: 9999}} />
-            <div style={{width: 6, height: 6, background: 'white', borderRadius: 9999}} />
-            <div style={{width: 6, height: 6, background: 'white', borderRadius: 9999}} />
-        </div>
-    </div>
-    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 14, display: 'flex'}}>
-        <div style={{width: 233, height: 36, color: 'black', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Header / Title</div>
-        <div style={{width: 648, color: 'black', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODd<br/><br/><br/><br/></div>
-    </div>
-    <div style={{justifyContent: 'flex-start', alignItems: 'flex-end', gap: 21, display: 'inline-flex'}}>
-        <div style={{width: 23, height: 23, position: 'relative', mixBlendMode: 'multiply'}}>
-            <img style={{width: 23, height: 23, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/23x23" />
-            <div style={{width: 23, height: 23, left: 0, top: -1, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
-                <div style={{width: 23, height: 23, background: '#BF5700'}} />
-            </div>
-        </div>
-        <div style={{width: 23, height: 23, position: 'relative'}}>
-            <img style={{width: 23, height: 23, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/23x23" />
-            <div style={{width: 23, height: 23, left: 0, top: 0, position: 'absolute', mixBlendMode: 'multiply'}}>
-                <img style={{width: 23, height: 23, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/23x23" />
-                <div style={{width: 23, height: 23, left: 0, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
-                    <div style={{width: 23, height: 23, background: 'white'}} />
+    <div style={{width: '100%', height: 'auto', background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+    <div style={{paddingLeft: 51, paddingRight: 51, paddingTop: 23, paddingBottom: 23, background: 'white', boxShadow: '0px 1px 3px rgba(0, 0, 0, 0.10)', borderRadius: 4, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 30, display: 'inline-flex'}}>
+            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 11, display: 'flex'}}>
+                <div style={{justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+                    <img style={{width: 65, height: 64}} src="hookem.png" />
+                    <div style={{color: 'black', fontSize: 32, fontFamily: 'Jura', fontWeight: '400', wordWrap: 'break-word'}}>UTalk</div>
                 </div>
+                <div style={{color: '#292929', fontSize: 28, fontFamily: 'Inter', fontWeight: '700', wordWrap: 'break-word', textAlign:'center', width:'100%'}}>Log In for UTalk-Client</div>
             </div>
-            <img style={{width: 15.39, height: 15.39, left: 3.81, top: 2.66, position: 'absolute'}} src="https://via.placeholder.com/15x15" />
-            <div style={{width: 15.39, height: 15.39, left: 3.81, top: 2.66, position: 'absolute', mixBlendMode: 'multiply'}}>
-                <img style={{width: 15.39, height: 15.39, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/15x15" />
-                <div style={{width: 23, height: 23, left: -4.83, top: -8.12, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
-                    <div style={{width: 23, height: 23, background: '#BF5700'}} />
+            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 21, display: 'flex'}}>
+                <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 25, display: 'flex'}}>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 18, display: 'flex'}}>
+                        <input placeholder="Username" style={{width: 440, paddingLeft: 30, paddingRight: 30, paddingTop: 18, paddingBottom: 18, background: 'white', borderRadius: 10, overflow: 'hidden', border: '1px #C54903 solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex', color: '#4F4F4F', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}/>
+                        <input placeholder="Password" style={{width: 440, paddingLeft: 30, paddingRight: 30, paddingTop: 18, paddingBottom: 18, background: 'white', borderRadius: 10, overflow: 'hidden', border: '1px #C54903 solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex', color: '#4F4F4F', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}/>
+                    </div>
+                    <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 9, display: 'inline-flex'}}>
+                        <div style={{color: '#4F4F4F', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Or continue with</div>
+                        <div style={{width: 304, height: 0, border: '0.50px #C54903 solid'}}></div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div style={{width: 23, height: 23, position: 'relative'}}>
-            <img style={{width: 23, height: 23, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/23x23" />
-            <div style={{width: 23, height: 23, left: 0, top: 0, position: 'absolute', mixBlendMode: 'multiply'}}>
-                <img style={{width: 23, height: 23, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/23x23" />
-                <div style={{width: 23, height: 23, left: 0, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
-                    <div style={{width: 23, height: 23, background: '#E7C309'}} />
+                <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 22, display: 'flex'}}>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 22, display: 'flex'}}>
+                        <button style={{paddingLeft: 39, paddingRight: 39, paddingTop: 9, paddingBottom: 9, background: '#F7F7F7', borderRadius: 4, overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                            <img style={{width: 30, height: 30}} src="google.png" />
+                        </button>
+                        <button style={{width: 312, height: 62, position: 'relative'}}>
+                            <div style={{width: 312, height: 62, left: 0, top: 0, position: 'absolute', background: '#C54903', borderRadius: 8}} />
+                            <div style={{left: 133, top: 21, position: 'absolute', color: 'white', fontSize: 16, fontFamily: 'IBM Plex Serif', fontWeight: '400', wordWrap: 'break-word'}}>Log in</div>
+                        </button>
+                    </div>
+                    <div style={{display:'flex', height:'fit-content'}}>
+                        <div style={{color: 'black', fontSize: 16, fontFamily: 'IBM Plex Serif', fontWeight: '500', letterSpacing: 1.28, wordWrap: 'break-word'}}>Don’t have an account? </div><div style={{color: '#3BADCD', fontSize: 16, fontFamily: 'IBM Plex Serif', fontWeight: '500', letterSpacing: 1.28, wordWrap: 'break-word'}}>Sign Up</div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
   )
 }
 
